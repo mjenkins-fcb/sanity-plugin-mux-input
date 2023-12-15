@@ -23,7 +23,7 @@ export function muxVideoCustomRendering(config: Config) {
         return {
           title: filename || playbackId || '',
           subtitle: status ? `status: ${status}` : null,
-          media: asset.playbackId ? <VideoThumbnail asset={asset} width={64} /> : null,
+          media: asset.playbackId ? <VideoThumbnail asset={asset} width={135} /> : null,
         }
       },
     },

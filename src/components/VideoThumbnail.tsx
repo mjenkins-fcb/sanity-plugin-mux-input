@@ -61,6 +61,8 @@ export default function VideoThumbnail({
       style={{
         aspectRatio: THUMBNAIL_ASPECT_RATIO,
         position: 'relative',
+        width: '100%',
+        height: '100%',
       }}
       border
       radius={2}
